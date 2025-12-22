@@ -1,3 +1,4 @@
+
 # Linux User Access Management Lab
 
 
@@ -27,12 +28,12 @@ user, group, permission dan sudo acces management.
 
 ## Learning Approach
 - Hands-on dengan command step by step
-- Skenario kasus/insiden
+- Skenario kasus/insiden response
 - Dokumentasi error dan personal insight
 
 
 ## Repository Structure
-- labs/     : Command step by step berdasarkan praktik nyata
+- labs/     : Praktik nyata dan respon insiden
 - notes.md  : Mistakes,observation dan lesson learned
 
 
