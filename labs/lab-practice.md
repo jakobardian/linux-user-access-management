@@ -150,9 +150,17 @@ su - [user]
 #### Test action
 ```zsh
 cat [file]
+```
+```zsh
 mkdir [folder]
+```
+```zsh
 cd [folder]
+```
+```zsh
 touch [file]
+```
+```zsh
 .[file]
 ```
 **Note**
