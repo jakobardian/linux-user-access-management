@@ -1,17 +1,15 @@
-# Incident Response
+# Incident Response - User Cannot Run Sudo
 
-
----
 
 
 ## Objectives
 Repository ini berisikan simulasi insiden yang sering terjadi di dunia kerja nyata.
 Setiap incident response ditulis dengan struktur berikut:
-**Initial Condition** > Proses pembuatan kondisi dummy incident
-**Symptom** > Notifikasi pesan error di terminal
-**Root Cause** > Penjelasan permasalahan insiden
-**Resolution** > Penjelasan dan proses resolve yang dilakukan
-**Verification** > Verifikasi memastikan insiden sudah teratasi
+* **Initial Condition** > Proses pembuatan kondisi dummy incident
+* **Symptom** > Notifikasi pesan error di terminal
+* **Root Cause** > Penjelasan permasalahan insiden
+* **Resolution** > Penjelasan dan proses resolve yang dilakukan
+* **Verification** > Verifikasi memastikan insiden sudah teratasi
 
 Dari incident response learning ini diharapkan, saya:
 - Mampu menciptakan kondisi salah (dummy incident)
@@ -24,16 +22,15 @@ Dari incident response learning ini diharapkan, saya:
 
 
 ## Environtment
-**Virtual Machines**	: VMware Workstation Pro 25H2
-**OS**			: Ubuntu Desktop ver.24.04
-**Shell**		: Zsh
+* **Virtual Machines**	: VMware Workstation Pro 25H2
+* **OS**		: Ubuntu Desktop ver.24.04
+* **Shell**		: Zsh
 
 
 ---
 
 
-## Incident Case
-### Case 1. User Cannot Run Sudo
+## Incident Case - User Cannot Run Sudo
 #### Initial Condition
 Membuat user `jebe` yang bukan owner, tidak masuk di group sudo,
 dan tidak masuk di group owner. 
