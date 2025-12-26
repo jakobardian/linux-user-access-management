@@ -54,7 +54,7 @@ menjalankan perintah `sudo`.
 ```zsh
 sudo usermod -aG sudo [user]
 ```
-![Screenshot](practice-screenshots/M1C1-troubleshooting)
+![Screenshot](practice-screenshots/M1C1-troubleshooting.png)
 >User `jebe` harus melakukan logout dan login ulang.
 
 #### Verification
@@ -62,6 +62,6 @@ Switch user menjadi `jebe`, kemudian verifikasi dengan
 ```zsh
 sudo whoami
 ```
-![Screenshots](practice-screenshots/M1C1-verification)
+![Screenshots](practice-screenshots/M1C1-verification.png)
 >jika outputnya **root** maka user `jebe` sudah memiliki akses sudo
 
