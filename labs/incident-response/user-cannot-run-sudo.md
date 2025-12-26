@@ -34,11 +34,11 @@ Dari incident response learning ini diharapkan, saya:
 #### Initial Condition
 Membuat user `jebe` yang bukan owner, tidak masuk di group sudo,
 dan tidak masuk di group owner. 
-![Screenshot](practice-screenshots/M1C1-initial-condition.png)
+![Screenshot](screenshots/M1C1-initial-condition.png)
 
 #### Symptom
 User `jebe` menjalankan command sudo, kemudian muncul pesan error.
-![Screenshot](practice-screenshots/M1C1-symptom.png)
+![Screenshot](screenshots/M1C1-symptom.png)
 
 #### Root Cause
 User `jebe` tidak bisa melakukan sudo, karena user `jebe` tidak masuk dalam
@@ -51,7 +51,7 @@ menjalankan perintah `sudo`.
 ```zsh
 sudo usermod -aG sudo [user]
 ```
-![Screenshot](practice-screenshots/M1C1-troubleshooting.png)
+![Screenshot](screenshots/M1C1-troubleshooting.png)
 >User `jebe` harus melakukan logout dan login ulang.
 
 #### Verification
@@ -59,6 +59,6 @@ Switch user menjadi `jebe`, kemudian verifikasi dengan
 ```zsh
 sudo whoami
 ```
-![Screenshots](practice-screenshots/M1C1-verification.png)
+![Screenshots](screenshots/M1C1-verification.png)
 >jika outputnya **root** maka user `jebe` sudah memiliki akses sudo
 
