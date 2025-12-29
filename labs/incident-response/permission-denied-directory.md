@@ -51,13 +51,13 @@ folder/directory.
 ```zsh
 sudo usermod -aG operation raekasin
 ```
-![Screenshot](screenshots/M1C2-troubleshooting)
+![Screenshot](screenshots/M1C2-troubleshooting.png)
 > User raekasin perlu relogin
 
 ### Verification
 Switch user ke `raekasin` dan melakukan proses administrasi seperti masuk, 
 membuat file, melihat list directory, melihat isi file ataupun 
 execute di dalam directory tersebut.
-![Screenshot](screenshots/M1C2-verification)
+![Screenshot](screenshots/M1C2-verification.png)
 > Perintah harus berhasil, jika error berarti gagal
 
