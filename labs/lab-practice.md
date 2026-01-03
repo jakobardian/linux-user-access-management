@@ -142,7 +142,7 @@ ls -ld [folder]
 
 ---
 
-### Verify User Access
+### 9. Verify User Access
 #### Login user 
 ```zsh
 su - [user]
@@ -169,7 +169,7 @@ touch [file]
 
 ---
 
-### Manage Sudo Access
+### 10. Manage Sudo Access
 #### Assign User to Sudo Group 
 - Command user sudoers
 ```zsh
@@ -203,7 +203,7 @@ sudo visudo
 
 ---
 
-### Audit with Logs
+### 11. Audit with Logs
 #### Audit user login history
 ```zsh
 last [user]
@@ -242,7 +242,7 @@ sudo journalctl | grep sudo
 
 ---
 
-### Cleanup
+### 12. Cleanup
 #### Remove user
 ```zsh
 sudo userdel -r [user]
